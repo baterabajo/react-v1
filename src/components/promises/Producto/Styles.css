@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+.containerFlex {
+  display: flex;
+  flex-wrap: wrap; 
+  border: 2px solid black;
+  background-color:antiquewhite ;
+}
+
+.containerFlex div {
+  width: 300px;
+  height: 350px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(241 218 225);
+}
+
+
+.ItemDetalleFlex {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color:antiquewhite ;
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.containerFlexItemCount {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  background-color:antiquewhite ;
+ 
+}
+
+
+
+
+.button4 {
+  border-radius: 12px;
+  outline:0;
+  border:2px solid var(--clr--main);
+  outline:2px solid var(--clr--main);
+  background-color: rgb(190, 115, 22);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button4:hover {background-color: #3e8e41}
+
+.button4:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* carrito */
+.carritoFlex {
+  display: flex;
+  flex-wrap: wrap; 
+  border: 2px solid black;
+  background-color:antiquewhite ;
+}
+
+.carritoFlex div {
+  width: 300px;
+  height: 350px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(241 218 225);
+}
+
+
+
+
+
+
