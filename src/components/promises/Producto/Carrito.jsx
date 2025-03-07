@@ -24,7 +24,7 @@ const Carrito = () => {
             <h1>Carrito</h1>
             <div className='carritoFlex' >
             {
-               
+                carrito.length > 0 &&
                 carrito.map((prod) => (
 
                     <div >
@@ -45,6 +45,7 @@ const Carrito = () => {
 
                     carrito.length > 0 ?
                         <>
+                            
                             <h2>Precio Total: $ {precioTotal()}</h2>
                             <button class="button button4" onClick={handleVaciar}>Vaciar Carrito</button>
                             <button class="button button4" onClick={handlerPruebas}>Pruebas</button>

@@ -1,4 +1,4 @@
-import { useState ,useEffect} from "react";
+import { useState, useEffect } from "react";
 
 const TextEfect = () => {
 
@@ -12,9 +12,9 @@ const TextEfect = () => {
     useEffect(() => {
         console.log("Componente montado");
 
-
-return () => {
-    console.log("Componente desmontado");}
+        return () => {
+            console.log("Componente desmontado");
+        }
 
     }, []);
 

@@ -9,36 +9,36 @@ import ItemListContainer from "./components/promises/Producto/ItemListContainer"
 import Contacto from "./components/promises/Producto/Contacto";
 import { ContextoProvider } from './components/context/ContextApp';
 import Carrito from "./components/promises/Producto/Carrito";
-import ItemListContainerFirebase from "./components/promises/Producto/ItemListContainerFirebase";
-import ItemDetailContainerFirebase from "./components/promises/Producto/ItemDetailContainerFirebase";
+import ItemListContainerFb from "./components/promises/Producto/ItemListContainerFb";
+import ItemDetailContainerFb from "./components/promises/Producto/ItemDetailContainerFb";
 import Checkout from "./components/promises/Producto/Checkout";
+import Xxx from "./components/promises/Producto/Xxx";
 
 
 function App() {
 
-
-
   return (
     <div className="App">
-<ContextoProvider>
+      <ContextoProvider>
         {/* Ctrl + K + U   CTRL + K + C */}
         {/*  <ItemListContainer2 />     */}
 
         <BrowserRouter>
           <Navbar />
           <Routes>
+            <Route path="/" element={<Inicio />} />
             <Route path="/ItemListContainer/:title" element={<ItemListContainer />} />
-            <Route path="/ItemListContainerFirebase" element={<ItemListContainerFirebase />} />
+            <Route path="/ItemListContainerFirebase" element={<ItemListContainerFb />} />
             <Route path="/item/:id" element={<ItemDetailContainer />} />
-            <Route path="/item/:id" element={<ItemDetailContainerFirebase />} />
+            <Route path="/Item_Fb/:id" element={<ItemDetailContainerFb />} />
             <Route path="/pokemon" element={<Pokemon />} />
-            <Route path="/Inicio" element={<Inicio />} />
             <Route path="/Contacto" element={<Contacto />} />
             <Route path="/Carrito" element={<Carrito />} />
             <Route path="/Checkout" element={<Checkout />} />
+            <Route path="/Xxx" element={<Xxx />} />
           </Routes>
         </BrowserRouter>
-        </ContextoProvider>
+      </ContextoProvider>
 
     </div>
   );

@@ -11,7 +11,7 @@ function handleShow() {
 
   return (
     <div>
-      <button onClick={handleShow}>{show? "Ocultar" :"Mostar"}</button> 
+      <button onClick={handleShow}>{show? "Ocultar":  "Mostar" }</button> 
       { show && <TextEfect/> }
      
     </div>

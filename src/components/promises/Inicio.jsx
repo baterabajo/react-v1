@@ -1,13 +1,16 @@
-import React from 'react'
+
+import TextShow from '../UseEffect/TextShow';
 
 function Inicio() {
 
 
-
   return (
     <div>
-        <h1>Inicio</h1>
-    <p>Hola mundo React</p>
+      <h1>mounting </h1>
+      <h1>updating</h1>
+      <h1>unmounting</h1>
+      <TextShow />
+
     </div>
   )
 }

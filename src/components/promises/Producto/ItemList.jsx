@@ -8,10 +8,10 @@ const ItemList = ({ producto }) => {
     <>
       {
         producto.length > 0 &&
-        producto.map((producto) => {
+        producto.map((prod) => {
           return (
             <div>
-            <Item producto={producto} />
+            <Item producto={prod} key={prod.id} />
             </div>
           );
         })

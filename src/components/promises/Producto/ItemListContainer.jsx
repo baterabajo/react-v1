@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { PedirProductos } from './PedirDatos';
+import { pedirProductos } from '../../../helpers/pedirDatos';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
 import './Styles.css'
@@ -13,9 +13,8 @@ const ItemListContainer = () => {
   const title = useParams().title;
 
 
-
   useEffect(() => {
-    PedirProductos()
+    pedirProductos()
       .then((res) => {
         setProductos(res);
         setTitulo(title);

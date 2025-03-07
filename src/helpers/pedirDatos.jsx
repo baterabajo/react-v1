@@ -1,7 +1,10 @@
-import data from '../../../data/productos.json';
+import data from '../data/productos.json';
 
 
-export const PedirProductos = () => {
+// Promesas o promises son asincronas funciones se declaran con minuscula no en Pascal como los componentes
+// las promesas se ejecutan en un bucle por eso toca controlarlas con useEffect() 
+
+export const pedirProductos = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(data);
