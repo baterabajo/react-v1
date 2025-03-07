@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/baterabajo/react/static/css/main.449f78f3.css",
+    "main.js": "/baterabajo/react/static/js/main.b65a9481.js",
+    "index.html": "/baterabajo/react/index.html",
+    "main.449f78f3.css.map": "/baterabajo/react/static/css/main.449f78f3.css.map",
+    "main.b65a9481.js.map": "/baterabajo/react/static/js/main.b65a9481.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.449f78f3.css",
+    "static/js/main.b65a9481.js"
+  ]
+}
