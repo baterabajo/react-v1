@@ -466,29 +466,11 @@ cambiamos  getDocs(productosRef ) getDocs(q )
 Agrgamos un Pedido en la Nueva collecion Pedidos
 ![alt text](image-77.png)
 
+----------------------------------------------------------------------------------------------------------------
+AGREGAMOS EL PROYECTO EN github
 
-agragamos el proyecto gitHub
  video de ayuda 
 
-
- ------------------------------------------------------------------------------------------------------------------------------------
-Deploy React project on Github Pages 
-
-"homepage":  "https://github.com/baterabajo/react"
-
- agrego esats lineas en package.json
-"homepage":  "https://github.com/baterabajo/react",
-
-  "predeploy" : "npm run build",
-
-  "deploy": "gh-pages -d build"
-  
-
-![alt text](image-78.png)
-![alt text](image-79.png)
-![alt text](image-81.png)
-
-----------------------------------------------------------------------------------------------------------------
 Como Actualizar mi Repositorio en GitHub
 En la terminal
 
@@ -503,7 +485,58 @@ Agrego los archivos nuevos ya sean imagenes del archivo README.md donde hago el 
 con esto lo subimos al repositorio en la rama inicial
 git push origin main
 
+
+
+ ------------------------------------------------------------------------------------------------------------------------------------
+Deploy React project on Github Pages 
+
+"homepage":  "https://github.com/baterabajo/react"
+
+ agrego esats lineas en package.json
+"homepage":  "https://github.com/baterabajo/react",
+
+  "predeploy" : "npm run build",
+
+  "deploy": "gh-pages -d build"
+
+![alt text](image-78.png)
+![alt text](image-79.png)
+![alt text](image-81.png)
+
+Instalar el paquete gh-pages en Node.js
+Si prefieres no utilizar un branch de gh-pages, otra forma de publicar tu sitio web con GitHub Pages es utilizando el paquete gh-pages en Node.js. Para ello, sigue los siguientes pasos:
+
+1.
+npm install gh-pages --save-dev
+
+2
+En el archivo package.json, añade las siguientes líneas:
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
+3
+En tu terminal, ejecuta el siguiente comando:
+npm run deploy
+
+4.
+Ve a la página de configuración de GitHub Pages de tu repositorio (Settings > Pages)`.
+
+![alt text](image-84.png)
+
+![alt text](image-82.png)
+
+En Build and deployment del pagina cambio el Branch
+main
+Save
+
 npm run deploy 
+![alt text](image-83.png)
+
+aparece https://baterabajo.github.io/react-v1/
+
 
 
 
