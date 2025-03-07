@@ -514,7 +514,7 @@ En el archivo package.json, añade las siguientes líneas:
 
 "scripts": {
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d build"
 }
 
 3
