@@ -478,12 +478,32 @@ Deploy React project on Github Pages
 
  agrego esats lineas en package.json
 "homepage":  "https://github.com/baterabajo/react",
+
   "predeploy" : "npm run build",
-    "deploy": "gh-pages -d build"
+
+  "deploy": "gh-pages -d build"
+  
 
 ![alt text](image-78.png)
 ![alt text](image-79.png)
 ![alt text](image-81.png)
+
+----------------------------------------------------------------------------------------------------------------
+Como Actualizar mi Repositorio en GitHub
+En la terminal
+
+Video de ayuda 
+https://www.google.com/search?q=github+visual+code+actualizar&sca_esv=6032389a2ad49ca8&udm=7&biw=1366&bih=617&sxsrf=AHTn8zoCzpeor-z1U2cWKxtwDkiWFFMd_Q%3A1741306442225&ei=SjrKZ6K1DYOTwbkPy8S_2Ag&ved=0ahUKEwiigrz_1_aLAxWDSTABHUviD4sQ4dUDCBA&uact=5&oq=github+visual+code+actualizar&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIh1naXRodWIgdmlzdWFsIGNvZGUgYWN0dWFsaXphcjIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FSJcwUMMHWJQtcAJ4AJABAJgBoAKgAawTqgEFMC44LjS4AQPIAQD4AQGYAg6gAswUwgIGEAAYCBgewgIIEAAYogQYiQXCAgUQABjvBcICBhAAGBYYHsICCBAAGBYYChgewgIIEAAYgAQYogTCAgQQIRgVwgIHECEYoAEYCpgDAIgGAZIHBzIuNC43LjGgB9FD&sclient=gws-wiz-modeless-video#fpstate=ive&ip=1&vld=cid:ac916ed9,vid:_69hncq_Azo,st:0
+
+Agrego los archivos nuevos ya sean imagenes del archivo README.md donde hago el manual
+ git add .
+ git commit -m "Nuevos cambios en mi app de React"
+
+
+con esto lo subimos al repositorio en la rama inicial
+git push origin main
+
+npm run deploy 
 
 
 
